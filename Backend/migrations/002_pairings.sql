@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS pairings (
+  id SERIAL PRIMARY KEY,
+  code VARCHAR(12) UNIQUE NOT NULL,
+  hijo_id INTEGER NOT NULL,
+  expires_at TIMESTAMPTZ NOT NULL,
+  completed_at TIMESTAMPTZ,
+  pulsera_id INTEGER
+);
+

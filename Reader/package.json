@@ -1,0 +1,15 @@
+{
+  "name": "dyloreader",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node reader.js",
+    "list": "node list-readers.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "nfc-pcsc": "^0.8.0",
+    "uuid": "^9.0.0"
+  }
+}
